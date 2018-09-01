@@ -1,9 +1,9 @@
 <?php
 /*
 Plugin Name: Stop Spammers
-Version: auto
+Version: 2.8.a
 Description: Fight against spammers
-Plugin URI: http://piwigo.org/ext/extension_view.php?eid=
+Plugin URI: http://piwigo.org/ext/extension_view.php?eid=721
 Author: plg
 Author URI: http://le-gall.net/pierrick
 */
@@ -22,7 +22,7 @@ global $prefixeTable;
 defined('STOP_SPAMMERS_ID') or define('STOP_SPAMMERS_ID', basename(dirname(__FILE__)));
 define('STOP_SPAMMERS_PATH' , PHPWG_PLUGINS_PATH.basename(dirname(__FILE__)).'/');
 define('STOP_SPAMMERS_TABLE', $prefixeTable.'stop_spammers');
-define('STOP_SPAMMERS_VERSION', 'auto');
+define('STOP_SPAMMERS_VERSION', '2.8.a');
 
 // init the plugin
 add_event_handler('init', 'stop_spammers_init');
